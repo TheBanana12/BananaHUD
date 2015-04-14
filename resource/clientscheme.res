@@ -2382,7 +2382,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
+			
 		ControllerHintText
 		{
 			"1"
@@ -2395,30 +2395,12 @@ Scheme
 				"additive"	"0"
 			}
 		}
-	
-		QuicksandBold12
-		{
-			"1"
-			{
-				"name"		"QuicksandBold-Regular"
-				"tall"		"12"
-				"antialias" "1"
-			}
-		}
 		
-		QuicksandBook12
-		{
-			"2"
-			{
-				"name"		"QuicksandBook-Regular"
-				"tall"		"12"
-				"antialias" "1"
-			}
-		}
+		//These are the fonts I'm using in my custom HUD
 		
 		QuicksandBold16
 		{
-			"3"
+			"1"
 			{
 				"name"		"QuicksandBook-Regular"
 				"tall"		"16"
@@ -2426,19 +2408,136 @@ Scheme
 			}
 		}
 		
-		
-		QuicksandBold20
+		BikoRegular16
 		{
-			"4"
+			"1"
 			{
-				"name"		"QuicksandBook-Regular"
+				"name"		"Biko"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		BikoRegular18
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"18"
+				"antialias" "1"
+			}
+		}
+		
+		BikoRegular20
+		{
+			"1"
+			{
+				"name"		"Biko"
 				"tall"		"20"
 				"antialias" "1"
 			}
 		}
+		
+		BikoRegular24
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		BikoRegular32
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		
+		BikoRegular48
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold16
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold20
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold24
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold32
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold40
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold48
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold56
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
 	}
-	
-	//These are the fonts I'm using in my custom HUD
 	
 	//
 	//////////////////// BORDERS //////////////////////////////
@@ -4355,7 +4454,7 @@ Scheme
 		}
 		"9"
 		{
-		"	font" "resource/fonts/Quicksand_Book.otf"
+			"font" "resource/fonts/Quicksand_Book.otf"
 			"name" "QuicksandBook-Regular"
 		}
 		"10"
@@ -4378,3 +4477,16 @@ Scheme
 			"font" "resource/fonts/Quicksand_Light_Oblique.otf"
 			"name" "QuicksandLightOblique-Regular"
 		}
+		"14"
+		{	"font" "resource/fonts/Biko_Black.otf
+			"name" "Biko-Black"
+		}
+		"15"
+		{	"font" "resource/fonts/Biko_Bold.otf
+			"name" "Biko-Bold"
+		}
+		"16"
+		{	"font" "resource/fonts/Biko_Regular.otf
+			"name" "Biko"
+		}
+	}
