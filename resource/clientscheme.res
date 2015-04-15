@@ -18,6 +18,10 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		// custom hud colors
+		"Black_myhud"		"0 0 0 255"
+		"White_myhud"		"255 255 255 255"
+		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -2398,16 +2402,6 @@ Scheme
 		
 		//These are the fonts I'm using in my custom HUD
 		
-		QuicksandBold16
-		{
-			"1"
-			{
-				"name"		"QuicksandBook-Regular"
-				"tall"		"16"
-				"antialias" "1"
-			}
-		}
-		
 		BikoRegular16
 		{
 			"1"
@@ -2467,6 +2461,18 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		BikoRegular56
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
+		
+		//Biko Bold Fonts - HP/Ammo
 		
 		BikoBold16
 		{
