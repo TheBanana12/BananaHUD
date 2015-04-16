@@ -47,11 +47,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
-		"ypos"			"33"	[$WIN32]
+		"xpos"			"73"
+		"ypos"			"33"
 		"zpos"			"2"
-		"wide"			"0"	[$WIN32]
-		"tall"			"0"	[$WIN32]
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
@@ -94,11 +94,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"16"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
