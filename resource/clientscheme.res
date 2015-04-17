@@ -2543,6 +2543,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		BikoBlack48
+		{
+			"1"
+			{
+				"name"		"Biko-Black"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
 	}
 	
 	//
@@ -4450,48 +4460,14 @@ Scheme
 			}
 		}			
 		"7"
-		{
-			"font" "resource/fonts/Quicksand_Bold.otf"
-			"name" "QuicksandBold-Regular"
-		}
-		"8"
-		{	"font" "resource/fonts/Quicksand_Bold_Oblique.otf"
-			"name" "QuicksandBoldOblique-Regular"
-		}
-		"9"
-		{
-			"font" "resource/fonts/Quicksand_Book.otf"
-			"name" "QuicksandBook-Regular"
-		}
-		"10"
-		{
-			"font" "resource/fonts/Quicksand_Book_Oblique.otf"
-			"name" "QuicksandBookOblique-Regular"
-		}
-		"11"
-		{
-			"font" "resource/fonts/Quicksand_Dash.otf"
-			"name" "QuicksandDash-Regular"
-		}
-		"12"
-		{
-			"font" "resource/fonts/Quicksand_Light.otf"
-			"name" "QuicksandLight-Regular"
-		}
-		"13"
-		{
-			"font" "resource/fonts/Quicksand_Light_Oblique.otf"
-			"name" "QuicksandLightOblique-Regular"
-		}
-		"14"
 		{	"font" "resource/fonts/Biko_Black.otf
 			"name" "Biko-Black"
 		}
-		"15"
+		"8"
 		{	"font" "resource/fonts/Biko_Bold.otf
 			"name" "Biko-Bold"
 		}
-		"16"
+		"9"
 		{	"font" "resource/fonts/Biko_Regular.otf
 			"name" "Biko"
 		}
