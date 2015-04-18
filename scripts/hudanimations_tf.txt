@@ -206,7 +206,7 @@ event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
-	Animate PlayerStatusHealthValue			fgcolor		"0 100 225 255" Linear 0.0 0.0
+	Animate PlayerStatusHealthValue			fgcolor		"0 115 215 255" Linear 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -231,9 +231,10 @@ event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
-	Animate PlayerStatusHealthValue			fgcolor		"200 50 0 255" Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue  		FgColor		"210 0 25 255"		Linear 0.0 0.1
+	Animate	PlayerStatusHealthValue   		FgColor		"White_myhud"		Linear 0.3 0.4
 	
-	RunEvent HudHealthDyingPulseLoop	0.25
+	RunEvent HudHealthDyingPulseLoop	0.5
 }
 
 // call to loop HudHealthDyingPulse
@@ -255,9 +256,12 @@ event HudLowAmmoPulse
 {
 	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
-	Animate AmmoInReserve				fgcolor		"200 25 0 255" Linear 0.0 0.0
+	Animate AmmoInReserve				fgcolor		"210 0 25 255" Linear 0.0 0.0
 	
-	RunEvent HudLowAmmoPulseLoop	0.25
+	Animate	AmmoInReserve  	FgColor		"210 0 25 255"		Linear 0.0 0.1
+	Animate	AmmoInReserve  	FgColor		"White_myhud"		Linear 0.3 0.4
+	
+	RunEvent HudLowAmmoPulseLoop	0.5
 }
 
 // call to loop HudLowAmmoPulse
