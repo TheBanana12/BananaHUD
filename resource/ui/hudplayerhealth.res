@@ -70,7 +70,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"BikoBold48"
+		"font"			"BikoRegular48"
 		"fgcolor"		"White_myhud"
 	}			
 	"PlayerStatusHealthValueBG"
@@ -86,7 +86,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"BikoBold48"
+		"font"			"BikoRegular48"
 		"fgcolor"		"Black_myhud"
 	}			
 	"PlayerStatusBleedImage"
