@@ -224,12 +224,12 @@
 			"Demoman"
 			{
 				"fov"			"25"
-				"angles_x"		"-12"
+				"angles_x"		"-16"
 				"angles_y"		"200"
 				"angles_z"		"-4"
-				"origin_x"		"145"
+				"origin_x"		"135"
 				"origin_y"		"-5"
-				"origin_z"		"-98"
+				"origin_z"		"-95"
 			}
 			"Medic"
 			{
@@ -244,12 +244,12 @@
 			"Heavy"
 			{
 				"fov"			"25"
-				"angles_x"		"-8"
+				"angles_x"		"-10"
 				"angles_y"		"210"
-				"angles_z"		"-4"
+				"angles_z"		"-3"
 				"origin_x"		"125"
 				"origin_y"		"-3"
-				"origin_z"		"-82"
+				"origin_z"		"-84"
 			}
 			"Pyro"
 			{
