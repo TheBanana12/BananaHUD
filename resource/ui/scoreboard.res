@@ -13,6 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
+		"medal_width"		"0"
 		"avatar_width"		"57"	[$WIN32]
 		"name_width"		"114"	[$WIN32]
 		"status_width"		"15"	[$WIN32]
