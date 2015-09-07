@@ -884,7 +884,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"HudFontMediumSmallBold"
+		"HudFontMediumSmall"
 		{
 			"1"
 			{
